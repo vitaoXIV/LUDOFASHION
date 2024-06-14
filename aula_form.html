@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <br>
+        <a href="" class="SOBRE">PREENCHER</a>
+        
+        
+    <section>
+        <form action="" enctype="multipart/form-data">  <!--Caixinha de busca tambem, e o nome do lado-->
+            <label for="">NOME:</label>
+           
+            <input type="text" name="nome" id="nome" value="Vitor" size="20"  placeholder="Seu nome..." required > 
+            <br>
+            <br>
+            <label for="">IDADE:</label>
+            <input type="text" name="idade" id="idade" value="16" placeholder="Sua idade..."> 
+            <br>
+            <br>
+            <label for="senha">SENHA:</label>
+            <input type="password" name="SENHA" id="SENHA" placeholder="Sua senha..." autofocus>
+            <br>
+            <br>
+            <label for="num">TEL:</label>
+            <input type="number" name="TELL" id="num" placeholder="Seu número...">
+            <br>
+            <br>
+            <label for="email">EMAIL:</label>
+            <input type="email" name="" id="" placeholder="Seu email..." required>
+            <br>
+            <br>
+            <label for="busca">BUSCA:</label>
+            <input type="search" name="busca" id="busca">
+          
+                <fieldset>
+                    <legend>Qual sua linguagem favorita</legend>
+           <input type="radio" name="lang" id="html">
+           <label for="html">HTML</label>
+           <input type="radio" name="lang" id="css" value="css"> <!--radio é pra aparecer a bolinha pra marcar-->
+           <label for="css">CSS</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Como você chega no Senac</legend> <!--Titulo da caixinha-->
+                <input type="checkbox" name="transporte" id="Bicicleta" value="Bicicleta"> <!--Input, depois label OU Label, depois input-->
+                <label for="Bicicleta">Bicicleta</label>
+                <input type="checkbox" name="transporte[]" id="ônibus" value="ônibus">  <!--Caixinha que tem a  pra marcar-->
+                <label for="ônibus">Ônibus</label>
+                <input type="checkbox" name="transporte" id="A pé" value="A pé">  <!--Caixinha que tem a  pra marcar-->
+                <label for="A pé">A Pé</label>
+                <BR></BR>
+
+               <!--Botar no id e no name, o que tu botou no for-->
+            <label for="cor">Cor:</label>
+            <input type="color" name="cor" id="cor">
+
+            <label for="data">DATA:</label>
+            <input type="date" name="DATA" id="DATA" min="2006-06-01">
+
+            <label for="foto">FOTO DE PERFIL:</label>
+            <input type="file" name="foto" id="foto" accept="image/*">
+            <br>
+            <br>
+
+           <input type="hidden" name="id" value="200">
+
+              <label for="tam">Selecione o tamanho da roupa:</label>
+           <select name="tamanho-roupa" id="tam"> <!--menuzinho pequeno que escolhe os tamanho-->
+            <option value="p">P</option> <!--menuzinho pequeno que escolhe os tamanho-->
+            <option value="m">M</option> <!--menuzinho pequeno que escolhe os tamanho-->
+            <option value="g" selected>G</option> <!--menuzinho pequeno que escolhe os tamanho-->
+           </select>
+           <br>
+           <input type="submit" value="Enviar"> <!--input+submit da uma Caixinha de enviar-->
+
+            <textarea name="Descrição" id="descrição" cols="10" rows="10"></textarea> <!--caixa grande que pode aumentar e diminuir-->
+
+        </fieldset>
+
+        </form>
+          
+    </section>
+    
+</body>
+</html>
