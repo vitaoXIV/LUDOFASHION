@@ -63,7 +63,7 @@ header {
     background-color: transparent;
     border: none;
     position: absolute;
-    right: 11%;
+    right: 11.5%;
     cursor: pointer;
 
 }
@@ -134,13 +134,14 @@ nav a {
     text-align: center;
 }
 
-#login {
-   margin: auto;
-   margin-top: 60px;
+#login {  /*caixa do login*/
+   margin: auto; /*pra centralizar a caixa*/
+   margin-top: 60px; /* pra afastar do topo*/
    border-radius: 5px;
-    width: 400px;
-    height: 500px;
-    background-color: var(--cor-primaria);
+    width: 400px; /*largura da caixa*/
+    height: 500px; /*altura da caixa*/
+    background-color: var(--cor-primaria); /*cor da caixa*/
+    
 }
 
 #formulario {
@@ -207,6 +208,7 @@ form > input[type=submit]:hover {
     text-decoration: none;
     color: var(--preto);
     font-size: 1.3rem;
+    align-items: 
 }
 
 #section-cadastro {

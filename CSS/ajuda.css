@@ -1,0 +1,66 @@
+:root {
+    --cor-primaria: rgba(248, 129, 238, 0.986);
+    --cor-secundaria: rgb(0, 23, 128);
+    --cor-terciaria:#FDACE0;
+    --branco: white; 
+    --preto: black ;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* .(id) #(classe) */
+
+header {
+    background-color: var(--cor-primaria);  /* parte rosa em cima*/
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;  
+
+}
+
+.bloco-duvidas{
+    background-color: #FDACE0;  /*cor de fundo dos cilindros*/
+    border-radius: 40px; /*faz a caixinha avirar um cilindro*/
+    padding: 35px;
+    margin: 50px 20px;
+    width: 1000px; /*largura dos cilindros* diminui a largura*/
+}
+
+#ajustes-img-text img {    /* deixar a imagem redonda*/
+    max-width: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 60%;
+    object-fit: cover;
+    
+}
+
+.duvidas {  /*deixou a imagem o h1 e h2 do lado dos textos*/
+    display: grid;  
+    grid-template-columns:repeat(2,1fr);
+}
+
+#ajustes-img-text {   /* centralizar o Ainda com poblemas e fale conosco*/
+    margin:;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#ajustes-img-text h2 {
+    background-color: #ff67ca; /*cilindro menor*/
+    padding: 20px 40px;
+    border-radius: 40px; /*faz a caixinha virar cilindro*/
+    
+
+}
+
+#ajustes-img-text,img,h1,h2 { 
+margin-bottom: 10px; 
+}
