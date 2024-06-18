@@ -19,7 +19,8 @@ header {
     background-color: var(--cor-primaria);  /* parte rosa em cima*/
     display: flex;
     padding: 2rem;
-    justify-content: space-between;  
+    justify-content: space-between;
+    
 
 }
 
@@ -31,7 +32,7 @@ header {
     width: 1000px; /*largura dos cilindros* diminui a largura*/
 }
 
-#ajustes-img-text img {    /* deixar a imagem redonda*/
+#ajustes-img-text img {    /* deixar a imagem redonda-Max-width,aspect-radio, border-radius e object-fit*/
     max-width: 400px;
     aspect-ratio: 1/1;
     border-radius: 60%;
@@ -51,6 +52,7 @@ header {
     align-items: center;
     justify-content: center;
     
+    
 }
 
 #ajustes-img-text h2 {
@@ -63,4 +65,30 @@ header {
 
 #ajustes-img-text,img,h1,h2 { 
 margin-bottom: 10px; 
+
 }
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding: 0.75rem;
+    background-color: var(--cor-terciaria);
+    
+}
+
+nav a:first-child {  /*o tracinho no meio*/
+    border-right: 2px solid var(--preto);
+    align-items: center;
+}
+
+    h1 {
+        color: white;
+        margin: initial;
+    }
+
+   #fone {
+    display: flex;
+   
+  
+   }
