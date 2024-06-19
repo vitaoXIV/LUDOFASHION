@@ -19,12 +19,15 @@ header {
     background-color: var(--cor-primaria);  /* parte rosa em cima*/
     display: flex;
     padding: 2rem;
-    justify-content: space-between;  
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    
 
 }
 
 .bloco-duvidas{
-    background-color: #FDACE0;  /*cor de fundo dos cilindros*/
+    background-color: var(--cor-terciaria);  /*cor de fundo dos cilindros*/
     border-radius: 40px; /*faz a caixinha avirar um cilindro*/
     padding: 35px;
     margin: 50px 20px;
@@ -63,4 +66,17 @@ header {
 
 #ajustes-img-text,img,h1,h2 { 
 margin-bottom: 10px; 
+}
+
+#ludo-fashion {
+    text-decoration: underline;
+}
+
+#ajudar {
+    text-decoration: underline;
+}
+
+.bloco-duvidas {
+    font-size: 24px;
+    color: var(--preto);
 }
