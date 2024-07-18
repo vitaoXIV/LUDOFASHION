@@ -47,10 +47,6 @@ header {
     cursor: pointer; 
 }
 
-h1 {
-    color:var(--preto)
-    font-size: 40px;
-}
 
 nav {
     display: grid; /*a barrinha rosinha*/
