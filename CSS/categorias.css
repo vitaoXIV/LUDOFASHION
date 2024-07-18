@@ -17,7 +17,7 @@ header {
     padding: 2%;
     display: flex;
    align-items: center;
-   
+ 
 }
 
 #form-buscar {   /*caixa de busca*/
@@ -61,6 +61,12 @@ nav a:first-child {  /*o tracinho no meio*/
     align-items: center;
 }
 
+nav a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .icon-link { /*configuração dos icones* e das letras pra botar em baixo*/
     display:flex;
     flex-direction: column;
@@ -70,23 +76,24 @@ nav a:first-child {  /*o tracinho no meio*/
 } 
 
 #cadastru{
-    color: var(--preto);
+    color: var(--branco);
 }
 
 #fav {
-    color: var(--preto);}
+    color: var(--branco);}
 
 #casa {
-    color: var(--preto);
+    color: var(--branco);
 }
 
 #duvido {
-    color: var(--preto);
+    color: var(--branco);
 }
 
 #Ludu {
     font-size: 25px;
-    color: #000000;
+    color: white;
+    text-decoration: none;
 }
 
 .catego {

@@ -6,6 +6,7 @@
     --cor-terciaria:#FDACE0;
     --branco: white; 
     --preto: black ;
+    --cor-quatro : #FF0099;
 
 
 }
@@ -17,8 +18,8 @@
 }
 
 header {
-    background-color: var(--cor-primaria); /*parte rosa*/
-    padding: 3%;
+    background-color: var(--cor-quatro); /*parte rosa*/
+    padding: 2%;
     display: flex;
    align-items: center;
    
@@ -36,9 +37,11 @@ header {
 #buscar {  /*tamanho, posição e grossura da caixa de busca*/
     flex-grow: 0.75;
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
     outline: none;
+    width: 40px;
+
     
 }
 
@@ -46,7 +49,7 @@ header {
     background-color: transparent; /*botao da lupa*/
     border: none;
     position: absolute;
-    right: 11.5%;
+    right: 12.5%;
     cursor: pointer; 
 }
 
@@ -63,6 +66,10 @@ nav {
     text-align: center;
     background-color: var(--cor-terciaria);
     padding: 0.5rem;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ 
+    
 }
 
 nav a:first-child {  /*o tracinho no meio*/
@@ -70,9 +77,14 @@ nav a:first-child {  /*o tracinho no meio*/
     align-items: center;
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+    
+}
 #banner {   /*# pra id*/ /*banner da loja, tamanho e imagem*/
     width: 100%;
-    background-image: url("../IMGS/5394142-mulher-bela-com-vestido-rosa-longo-em-uma-praia-tropical-foto.jpg");
+    background-image: url("../IMGS/banner-de-arte-abstrata-de-mulheres-bonitas-cumprimentando-o-dia-das-maes-dia-das-mulheres-gerado-ai_467123-22722.avif");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -83,7 +95,8 @@ nav a:first-child {  /*o tracinho no meio*/
 #txt-banner {     /*texto dentro do banner*/
 position: absolute;
 top: 10%;
-right: 10%;
+right: 5%;
+color: white;
 
 }
 
@@ -132,7 +145,20 @@ right: 10%;
     
     input {
         padding: 0.5rem;
-        border-radius: 5px;
-    border:none;
-    outline: none;
+        border-radius: 20px;
+        border:none;
+        outline: none;
+        height: 
     }
+
+    .LUDO {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+    }
+
+    header a {
+        color: white;
+    }
+
+    

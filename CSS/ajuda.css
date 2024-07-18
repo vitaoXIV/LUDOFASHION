@@ -1,5 +1,5 @@
 :root {
-    --cor-primaria: rgba(248, 129, 238, 0.986);
+    --cor-primaria: #FF0099;
     --cor-secundaria: rgb(0, 23, 128);
     --cor-terciaria:#FDACE0;
     --branco: white; 
@@ -18,8 +18,10 @@
 header {
     background-color: var(--cor-primaria);  /* parte rosa em cima*/
     display: flex;
-    padding: 2rem;
-    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+
+   
     
 
 }
@@ -92,3 +94,5 @@ nav a:first-child {  /*o tracinho no meio*/
    
   
    }
+
+   
