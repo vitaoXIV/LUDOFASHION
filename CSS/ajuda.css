@@ -27,7 +27,7 @@ header {
 }
 
 .bloco-duvidas{
-    background-color: #FDACE0;  /*cor de fundo dos cilindros*/
+    background-color: var(--cor-terciaria);  /*cor de fundo dos cilindros*/
     border-radius: 40px; /*faz a caixinha avirar um cilindro*/
     padding: 35px;
     margin: 50px 20px;
