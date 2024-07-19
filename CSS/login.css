@@ -26,8 +26,11 @@ body {
 
 header {
     background-color: var(--cor-primaria);
+    padding: 2%;
     display: flex;
     align-items: center;
+    
+
 }
 
 #form-buscar{
@@ -36,6 +39,7 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
+    
 }
 
 #buscar {
@@ -81,6 +85,10 @@ nav a {
     text-decoration: none;
     color: var(--preto);
     font-size: 1.2rem;
+}
+
+#barrinha{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #banner {
@@ -134,10 +142,12 @@ nav a {
 #login {  /*caixa do login*/
    margin: auto; /*pra centralizar a caixa*/
    margin-top: 60px; /* pra afastar do topo*/
-   border-radius: 5px;
+   border-radius: 10px;
     width: 400px; /*largura da caixa*/
-    height: 500px; /*altura da caixa*/
-    background-color: var(--cor-primaria); /*cor da caixa*/
+    height: 525px; /*altura da caixa*/
+    background-color: var(--cor-primaria);
+     /*cor da caixa*/
+
     
 }
 
@@ -159,11 +169,35 @@ nav a {
     flex-direction: column;
     font-size: 20px;
     width: 280px;
+    padding: 10px;
 }
 
 .campo label {
     display: flex;
     font-size: 23px;
+}
+
+#LUDO {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#duvido{
+    color: white;
+    text-decoration: underline;
+}
+#cadastru{
+    color: white;
+    text-decoration: underline;
+}
+#fav{
+    color: white;
+    text-decoration: underline;
+}
+#casa{
+    color: white;
+    text-decoration: underline;
 }
 
 .campo input {
@@ -184,7 +218,7 @@ form > input[type=submit] {
     height: 35px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 30px;
     background-color: var(--preto);
     color: var(--branco);
 }

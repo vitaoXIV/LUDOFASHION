@@ -4,6 +4,7 @@
     --cor-terciaria:#FDACE0;
     --branco: white; 
     --preto: black ;
+    --cor-quatro: #FF0099;
 
 
 }
@@ -16,23 +17,84 @@
 /* .(id) #(classe) */
 
 header {
-    background-color: var(--cor-primaria);  /* parte rosa em cima*/
+    background-color: var(--cor-quatro); /*parte rosa*/
+    padding: 2%;
     display: flex;
-    padding: 2rem;
-    justify-content: space-between;
-    color: white;
-    font-size: 20px;
-    
+   align-items: center;
+   justify-content: space-between;
+   
+}
+
+#form-buscar {   /*caixa de busca*/
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
 
 }
 
+#buscar {  /*tamanho, posição e grossura da caixa de busca*/
+    flex-grow: 0.75;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    width: 40px;
+    
+}
+
+#btn-buscar {
+    background-color: transparent; /*botao da lupa*/
+    border: none;
+    position: absolute;
+    right: 12.5%;
+    cursor: pointer; 
+}
+nav {
+    display: grid; /*a barrinha rosinha*/
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    background-color: var(--cor-terciaria);
+    padding: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:first-child {  /*o tracinho no meio*/
+    border-right: 1px solid var(--preto);
+    align-items: center;
+}
+
+nav a {
+   color: black;
+   text-decoration: none;
+}
+
+#sumario{
+    color: white;
+}
+
 .bloco-duvidas{
-    background-color: var(--cor-terciaria);  /*cor de fundo dos cilindros*/
+    background-color: var(--cor-quatro);  /*cor de fundo dos cilindros*/
     border-radius: 40px; /*faz a caixinha avirar um cilindro*/
     padding: 35px;
     margin: 50px 20px;
     width: 1000px; /*largura dos cilindros* diminui a largura*/
+    
 }
+
+#perguntas{
+    font-size: 40px;
+    display: flex;
+    
+    
+    
+
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+
 
 #ajustes-img-text img {    /* deixar a imagem redonda*/
     max-width: 400px;
@@ -63,7 +125,18 @@ header {
 
 
 }
+.icon-link {  /*configuração dos icones*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.5rem;
+}
 
+#itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #ajustes-img-text,img,h1,h2 { 
 margin-bottom: 10px; 
 }
@@ -72,11 +145,27 @@ margin-bottom: 10px;
     text-decoration: underline;
 }
 
-#ajudar {
-    text-decoration: underline;
+#ajudar{
+    font-size: 30px;
+        color: white;
+        text-decoration: none;
 }
 
 .bloco-duvidas {
     font-size: 24px;
     color: var(--preto);
+}
+#cadastru{
+    color: var(--branco);
+}
+
+#fav {
+    color: var(--branco);}
+
+#casa {
+    color: var(--branco);
+}
+
+#duvido {
+    color: var(--branco);
 }
