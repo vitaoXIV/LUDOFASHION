@@ -38,9 +38,12 @@ header {
     flex-grow: 0.75;
     padding: 0.5rem;
     border-radius: 7px;
+    border-radius: 7px;
     border: none;
     outline: none;
     width: 40px;
+    width: 40px;
+
     
 }
 
@@ -48,6 +51,7 @@ header {
     background-color: transparent; /*botao da lupa*/
     border: none;
     position: absolute;
+    right: 12.5%;
     right: 12.5%;
     cursor: pointer; 
 }
@@ -78,8 +82,14 @@ nav a {
    text-decoration: none;
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+    
+}
 #banner {   /*# pra id*/ /*banner da loja, tamanho e imagem*/
     width: 100%;
+    background-image: url("../IMGS/banner-de-arte-abstrata-de-mulheres-bonitas-cumprimentando-o-dia-das-maes-dia-das-mulheres-gerado-ai_467123-22722.avif");
     background-image: url("../IMGS/banner-de-arte-abstrata-de-mulheres-bonitas-cumprimentando-o-dia-das-maes-dia-das-mulheres-gerado-ai_467123-22722.avif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,6 +101,8 @@ nav a {
 #txt-banner {     /*texto dentro do banner*/
 position: absolute;
 top: 10%;
+right: 5%;
+color: white;
 right: 5%;
 color: white;
 
