@@ -1,6 +1,4 @@
-@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root{
     --cor-primaria: #FF0099;
@@ -29,7 +27,6 @@ body {
 header {
     background-color: var(--cor-primaria);
     display: flex;
-    padding: 1rem;
     align-items: center;
 }
 
