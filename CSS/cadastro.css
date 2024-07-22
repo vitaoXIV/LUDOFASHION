@@ -94,6 +94,8 @@ nav a {
     font-size: 25px;
     color: white;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .catego {
@@ -144,11 +146,14 @@ button {
     border-radius: 20px;
     background-color: var(--cor-tres);
     border: solid white;
-    cursor: pointer;
     
 }
 
-#lapis{
+
+#butao{
+    height: 60px;
+    width: 250px;
+    font-size: 25px;
     cursor: pointer;
+    margin-left: 20px;
 }
-   

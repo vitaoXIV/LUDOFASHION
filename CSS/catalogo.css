@@ -1,0 +1,267 @@
+:root {
+    --cor-primaria: rgba(248, 129, 238, 0.986);
+    --cor-secundaria: rgb(0, 23, 128);
+    --cor-terciaria: #FDACE0;
+    --branco: white;
+    --preto: black;
+    --cor-quatro: #FF0099;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: var(--cor-quatro);
+    /*parte rosa*/
+    padding: 2%;
+    display: flex;
+    align-items: center;
+
+}
+
+#form-buscar {
+    /*caixa de busca*/
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#buscar {
+    /*tamanho, posição e grossura da caixa de busca*/
+    flex-grow: 0.75;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    width: 40px;
+    width: 40px;
+
+
+}
+
+#btn-buscar {
+    background-color: transparent;
+    /*botao da lupa*/
+    border: none;
+    position: absolute;
+    right: 12.5%;
+    right: 12.5%;
+    cursor: pointer;
+}
+
+.icon-link {
+    /*configuração dos icones*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+
+nav {
+    display: grid;
+    /*a barrinha rosinha*/
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    background-color: var(--cor-terciaria);
+    padding: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:first-child {
+    /*o tracinho no meio*/
+    border-right: 1px solid var(--preto);
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.LUDO {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+}
+
+#conheca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#variados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#lateral{
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+    height: 730px;
+    margin-top: -40.3pc;
+}
+
+#categorias{
+    background-color: #FF0099;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   font-size: 33px;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 35px;
+    margin-right: 18px;
+    font-size: 38px;
+}
+
+#blusa{
+padding: 20px;
+}
+
+#vestidos{
+    padding: 20px;
+}
+#roupas{
+    padding: 20px;
+}
+
+#maquiagem{
+   margin-top: 20px;
+}
+
+
+#imagens{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    margin-right: 500px
+}
+  #paleta{
+    width: 15%;
+    margin-left: 420px;
+    margin-top: 20px;
+   
+  }
+  #link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -10rem;
+    padding: 20px;
+  }
+
+  #base{
+    width: 23%;
+    margin-left: 360px;
+    margin-top: 20px;
+  }
+
+#stick{
+    width: 20%;
+    margin-left: 800px;
+    margin-top: -280px;
+   
+}
+
+#stickizinho{
+    margin-left: 870px;
+    
+    
+}
+#fucsia{
+    width: 20%;
+    margin-left: 800px;
+    margin-top: -550px;
+}
+
+#blusa{
+    width: 15%;
+    margin-left: 800px;
+    margin-top: -500px;
+}
+
+#manga{
+    margin-left: 800px;
+}
+
+#numiro{
+ margin-left: 50px;
+}
+
+#marinho{
+    width: 11%;
+    margin-left: 1200px;
+    margin-top: -240px;
+}
+
+#caramelo{
+    margin-left: 1260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#kit{
+    width: 15%;
+    margin-left: 1200px;
+    margin-top: -2px;
+}
+
+#rotina{
+    margin-left: 1260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 5px;
+}
+#numero{
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 5px;
+}
+    

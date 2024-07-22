@@ -1,6 +1,3 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root{
     --cor-primaria: #FF0099;
@@ -31,7 +28,8 @@ header {
     display: flex;
     padding: 1rem;
     align-items: center;
-    font size: 2rem;
+    font-size: 20px;
+    text-decoration: white;
 }
 
 #form-buscar{
@@ -212,7 +210,7 @@ form > input[type=submit]:hover {
     text-decoration: none;
     color: var(--preto);
     font-size: 1.3rem;
-    align-items: 
+    align-items: center
 }
 
 #section-cadastro {
@@ -228,6 +226,18 @@ form > input[type=submit]:hover {
     padding: 3rem;
     
 }
+
+.LUDO {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+}
+
+
 
 #div-form h1 {
     text-align: center;
@@ -403,4 +413,8 @@ h2{
     font-size: 2.1rem;
     text-decoration:underline; /*sublinhado*/
       
+}
+
+#cadastru{
+    color: white;
 }

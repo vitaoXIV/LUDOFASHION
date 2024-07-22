@@ -36,8 +36,10 @@ header {
     flex-grow: 0.75;
     padding: 0.5rem;
     border-radius: 7px;
+    border-radius: 7px;
     border: none;
     outline: none;
+    width: 40px;
     width: 40px;
 
     
@@ -47,6 +49,7 @@ header {
     background-color: transparent; /*botao da lupa*/
     border: none;
     position: absolute;
+    right: 12.5%;
     right: 12.5%;
     cursor: pointer; 
 }
@@ -64,10 +67,7 @@ nav {
     text-align: center;
     background-color: var(--cor-terciaria);
     padding: 0.5rem;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
-
- 
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav a:first-child {  /*o tracinho no meio*/
@@ -76,86 +76,119 @@ nav a:first-child {  /*o tracinho no meio*/
 }
 
 nav a {
-    color: black;
-    text-decoration: none;
-    }
-
-.bloco-duvidas{
-    background-color: var(--cor-terciaria);  /*cor de fundo dos cilindros*/
-    border-radius: 40px; /*faz a caixinha avirar um cilindro*/
-    padding: 35px;
-    margin: 50px 20px;
-    width: 1000px; /*largura dos cilindros* diminui a largura*/
+   color: black;
+   text-decoration: none;
 }
 
-#ajustes-img-text img {    /* deixar a imagem redonda-Max-width,aspect-radio, border-radius e object-fit*/
-    max-width: 400px;
-    aspect-ratio: 1/1;
-    border-radius: 60%;
-    object-fit: cover;
-    
-}
-
-.duvidas {  /*deixou a imagem o h1 e h2 do lado dos textos*/
-    display: grid;  
-    grid-template-columns:repeat(2,1fr);
-}
-
-#ajustes-img-text {   /* centralizar o Ainda com poblemas e fale conosco*/
-    margin:;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-
-#ajustes-img-text h2 {
-    background-color: #ff67ca; /*cilindro menor*/
-    padding: 20px 40px;
-    border-radius: 40px; /*faz a caixinha virar cilindro*/
-
-
-}
-
-#ajustes-img-text,img,h1,h2 { 
-margin-bottom: 10px; 
-
-}
-
-nav {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    padding: 0.75rem;
-    background-color: var(--cor-terciaria);
-    
-}
-
-nav a:first-child {  /*o tracinho no meio*/
-    border-right: 2px solid var(--preto);
-    align-items: center;
-}
-
-    h1 {
-        color: white;
-        margin: initial;
-    }
-
-   #fone {
-    display: flex;
-   
-  
-   }
-   .LUDO {
+.LUDO {
     font-size: 30px;
     color: white;
     text-decoration: none;
 }
 
-header a {
+header>form, a {
     color: white;
 }
 
+
+#meu_perfil{
+    display: grid;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+   margin-top: 40px;
+   padding-right: 700px;
    
+ 
+}
+
+div p{
+    font-family: sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+div h2{
+    font-size: 30px;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #FDACE0;
+    width: 1000px;
+    height: 530px;
+    margin-left: 400px;
+    margin-top: -330px;
+    
+   
+    
+}
+
+#formi{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-right: 150px;
+    
+}
+#editar{
+    color: black;
+}
+
+#input{
+    height: 20px;
+    border: none;
+    width: 250px;
+}
+
+#botao{
+    color: white;
+    background-color: #FF0099;
+    border: none;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 250px;
+    cursor: pointer;
+
+}
+
+
+#editar{
+    color: #FF0099;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#pessoa{
+    display: flex;
+    align-items: center;
+}
+
+#desejos{
+    display: flex;
+    align-items: center;
+}
+
+#categorias{
+    display: flex;
+    align-items: center;
+}
+
+#produtos{
+    display: flex;
+    align-items: center;
+}
+#lateral{
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+#icone-pessoa, #coracao, #cate, #caixa{
+    padding-left: 10px;
+}
