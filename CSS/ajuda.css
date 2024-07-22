@@ -39,7 +39,6 @@ header {
     border: none;
     outline: none;
     width: 40px;
-
     
 }
 
@@ -81,14 +80,28 @@ nav a {
     }
 
 .bloco-duvidas{
-    background-color: var(--cor-terciaria);  /*cor de fundo dos cilindros*/
+    background-color: var(--cor-quatro);  /*cor de fundo dos cilindros*/
     border-radius: 40px; /*faz a caixinha avirar um cilindro*/
     padding: 35px;
     margin: 50px 20px;
     width: 1000px; /*largura dos cilindros* diminui a largura*/
+    
 }
 
-#ajustes-img-text img {    /* deixar a imagem redonda-Max-width,aspect-radio, border-radius e object-fit*/
+#perguntas{
+    font-size: 40px;
+    display: flex;
+    
+    
+    
+
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+
+
+#ajustes-img-text img {    /* deixar a imagem redonda*/
     max-width: 400px;
     aspect-ratio: 1/1;
     border-radius: 60%;
@@ -102,7 +115,7 @@ nav a {
 }
 
 #ajustes-img-text {   /* centralizar o Ainda com poblemas e fale conosco*/
-    margin:;
+    margin:30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +131,18 @@ nav a {
 
 
 }
+.icon-link {  /*configuração dos icones*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.5rem;
+}
 
+#itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #ajustes-img-text,img,h1,h2 { 
 margin-bottom: 10px; 
 
@@ -133,15 +157,19 @@ nav {
     
 }
 
-nav a:first-child {  /*o tracinho no meio*/
-    border-right: 2px solid var(--preto);
-    align-items: center;
+#ajudar{
+    font-size: 30px;
+        color: white;
+        text-decoration: none;
 }
 
-    h1 {
-        color: white;
-        margin: initial;
-    }
+.bloco-duvidas {
+    font-size: 24px;
+    color: var(--preto);
+}
+#cadastru{
+    color: var(--branco);
+}
 
    #fone {
     display: flex;
@@ -158,4 +186,10 @@ header a {
     color: white;
 }
 
-   
+#casa {
+    color: var(--branco);
+}
+
+#duvido {
+    color: var(--branco);
+}
