@@ -111,16 +111,49 @@ color: white;
 
 
 
-}
-
-.card-content {
-    color: var(--branco);
-    padding: 1rem;
+.conteudo h1{    /*Desconto em toda coleçao verão no meio*/
     text-align: center;
 }
 
-.card-img img {
-    border-radius: 8px 8px 0;
+.card{
+    background-color: var(--cor-terciaria);
+    width: 300px;
+    height: 400px;
+    border-radius: 3px;
+    box-shadow: 3px 4px gray;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    height: 50%;
+}
+
+.card h2, span{
+    font-size: 30px;
+}
+
+.card button{
+    background-color: var(--preto);
+   color: white;
+   font-size: 25px;
+   cursor: pointer;
+   border-radius: 4px;
+}
+
+.card a{
+    color: white;
+    text-decoration: none;
 }
     .login-form {
         background-color: var(--cor-primaria);
@@ -154,5 +187,12 @@ color: white;
 
     header a {
         color: white;
+    }
+
+    #img{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-left: 20px;
     }
     
