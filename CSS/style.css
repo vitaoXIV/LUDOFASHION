@@ -108,21 +108,9 @@ color: white;
 
 }
 
-.card-container {  
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-}
 
-.conteudo h1{    /*Desconto em toda coleçao verão no meio*/
-    text-align: center;
-}
 
-.card {
-    border: 1px solid var(--cor-secundaria);
-    border-radius: 8px;
-    background-color: var(--cor-secundaria);
-    
+
 }
 
 .card-content {
@@ -134,7 +122,6 @@ color: white;
 .card-img img {
     border-radius: 8px 8px 0;
 }
-
     .login-form {
         background-color: var(--cor-primaria);
         display: flex;
